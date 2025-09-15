@@ -1,0 +1,7 @@
+.misspelled-highlight-container {
+    z-index: 10;
+}
+
+.misspelled-highlight {
+    border-bottom: 1.5px solid red
+}

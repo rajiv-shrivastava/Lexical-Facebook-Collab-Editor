@@ -1,0 +1,60 @@
+
+
+.Footer-Input{
+    border: none;
+    position: absolute;
+    bottom: 12px !important;
+    left: 5px;
+    font-family: 'Times New Roman';
+    font-size: 14.5px;
+    padding: 20px;
+    width: 92%;
+  cursor: url('../../images/icons/pencil-fill.svg') 16 16, auto;
+}
+
+.Footer-Input:focus{
+    outline: none;
+    border-top: 1px dashed #aaa;
+} 
+
+.custom-div{
+    position: relative;
+    counter-increment: pageCounter;
+    background-color: white;
+}
+
+.custom-landscape{
+    margin: 0 0px 10px 0 !important;
+    min-height: 1000px;
+    width: 1023px !important;
+    max-width: 1023px !important;
+}
+
+.custom-div::before{
+    content: counter(pageCounter);
+    content: counter(pageCounter);
+    position: relative;
+    top: 1102px !important;
+    left: 107%;
+    font-family: 'Times New Roman';
+    font-size: 14.5px;
+}
+
+.Header-Input{
+width: 60%;
+    border: none;
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    font-family: 'Times New Roman';
+    font-size: 14.5px;
+    padding: 26px;
+  cursor: url('../../images/icons/pencil-fill.svg') 16 16, auto;
+
+}
+
+.Header-Input:focus{
+    outline: none;
+    border-bottom: 1px dashed #aaa;
+    width: 92%;
+}
